@@ -28,4 +28,9 @@ void loop() {
 
  myservo.write(90);
  delay(500);
+ myservo.write(120);
+ delay(500);
+
+ myservo.write(180);
+ delay(500);
 }
