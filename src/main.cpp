@@ -21,5 +21,6 @@ void setup() {
 
 
 void loop() {
-// write your code here
+ myservo.write(0);
+ delay(500);
 }
